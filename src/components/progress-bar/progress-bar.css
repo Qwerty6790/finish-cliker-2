@@ -1,0 +1,59 @@
+
+
+@media screen and (max-width: 667px) {
+  .limit_clicks {
+    font-size: 10px;
+    margin-left: -85px;
+    /* Оставляем остальные свойства без изменений */
+  }
+}
+.limit_clicks {
+  position: absolute;
+  color: aliceblue;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
+
+
+.progress-bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  /* flex-direction:column-reverse; */
+  bottom: 150px; 
+  margin-left: -110px;
+
+  
+}
+
+.limit_clicks{
+  position:absolute;
+  color:white;
+  width: 100%;
+  height: auto;
+  font-size:15px;
+  /* bottom:160px; */
+  /* top:68%; */
+  /* left:10%; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:aliceblue;
+}
+
+.progress-icon{
+  margin-left: -110px;
+  margin-top: 40px;
+}
+
+

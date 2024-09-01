@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    background-color: #121212;
+  }
+
+.friend {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 300px;
+  height: 30px;
+  color:aliceblue;
+ border: 1px solid #313131;
+  padding: 5px;
+  border-radius: 30px;
+  margin:-2; 
+  margin-bottom: 2px;
+  margin-top: 2px;
+  margin-left: 1px;
+  white-space: nowrap;
+  padding:30px;
+  overflow: hidden; /* Добавляем это свойство */
+}
+
+
+.users{
+  border-radius: 30px;
+  background-color: #4b4a4a;
+  width: 40px;
+  height: 40px;
+}
+
+.components-users{
+  border-radius: 30px;
+  background-color: #b1aeae;
+  width:12px;
+  height: 12px;
+  margin: 10px 13px;
+}
+
+.components-down-users{
+  border-radius: 30px;
+  background-color: #b1aeae;
+  width:20px;
+  height: 8px;
+  margin: -6px 9px;
+}
+
+.users-name{
+  margin-left: 10px;
+  text-align: center;
+}
+
+.users-profit{
+  position: absolute;
+  margin-left: 50px;
+  margin-top:45px;
+  color: #4b4a4a;
+}
+
+.users-give{
+  background-color: rgb(219, 131, 16);
+  opacity: 80%;
+  position: absolute;
+  width: 37px;
+  height: 23px;
+  border-radius: 20px;
+  margin-left: 260px;
+}
+
+.give{
+  margin-top: 2px;
+  margin-left: 1px;
+  color: #fff200;
+  font-size: 13px;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Big+Shoulders+Inline+Text:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@media screen and (max-width: 667px) {
+  .navigation-panel {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navigation-panel {
+    font-size: 10px;
+  }
+}
+
+
+html{
+ height: 100%;
+ color: #fff;
+}
+
+body {
+  overflow: hidden;
+  user-select:none;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+
+
+
+.navigation-panel {
+  display: flex;
+  align-items: center;
+  border: 2px solid #c6823e;
+  background-color: #b96b23;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 0 -1px 15px;
+  padding: 10px 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 357px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  height: 7%;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+ 
+.navigation-panel div { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;  
+  box-shadow: white 1px;
+  flex-wrap: nowrap; 
+  padding: 6px 1px;
+} 
+
+* {
+  -webkit-tap-highlight-color: #858383;
+}
+ 
+.navigation-panel a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 0;
+  outline: none;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.navigation-panel a:hover{
+  color: #f3f3f3;
+}
+ 
+.navigation-panel i a { 
+  width: 30px; 
+  height: 30px;  
+  font-size: 20px;
+}
+
+
+
+.icons{
+  width: 95px;
+  height: 50px;
+  padding-bottom: 1px;
+  background-color: transparent;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.icons:hover{
+  background-color: #ba9b7b;
+  border: 1px slid #fff;
+}
+
+
+
+

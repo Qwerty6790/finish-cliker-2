@@ -1,0 +1,106 @@
+body{ 
+  background-color: #141414; 
+} 
+ 
+ 
+.ratings-img{ 
+ margin-left: 150px; 
+ margin-top: 25px; 
+  
+} 
+ 
+.navigation-panel { 
+  display: flex;
+  align-items: center;
+  border: 2px solid #878787;
+  background-color: #464646;
+  border-radius: 20px;
+  justify-content: center;  
+  align-items:center;  
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  left: 49%;
+  transform: translateX(-50%);
+  width: 367px; 
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-family: "Montserrat", sans-serif; 
+  font-optical-sizing: auto; 
+  font-style: 700; 
+  position: absolute; 
+  font-size: 12px; 
+  bottom: 0; 
+  width: 357px; 
+  height:7%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 100;
+  } 
+  
+ 
+.ratings-title{ 
+position: absolute; 
+left:50%; 
+transform: translateX(-65%); 
+text-align: center; 
+margin-top: 100px; 
+margin-left: 40px; 
+color: aliceblue; 
+font-size: 30px; 
+white-space: nowrap; 
+ 
+} 
+ 
+.load-top-players{
+  font-family: "Montserrat", sans-serif;  
+  font-optical-sizing: auto;  
+  font-style: 700;  
+  color:aliceblue;
+}
+
+
+.line-between-cards-and-text{ 
+position: absolute; 
+left:50%; 
+transform: translateX(-57%); 
+width: 370px; 
+ 
+margin-left: 30px; 
+border-radius: 20px; 
+background-color: #464646; 
+padding-top: 5px; 
+margin-top: 150px; 
+} 
+ 
+.central-top-logo-img{ 
+position: absolute; 
+left:50%; 
+transform: translateX(-62%); 
+filter: drop-shadow(0 4px 15px rgba(255, 77, 0, 0.5)); 
+ 
+} 
+ 
+.cards { 
+flex-direction: column; 
+position: absolute; 
+height: 600px; 
+width: 100%; 
+display: flex; 
+align-items: center; 
+justify-content: flex-start;  
+left: 50%; 
+transform: translate(-50%); 
+top:220px; 
+overflow-y: auto; 
+} 
+ 
+ 
+.ratings-image{ 
+margin-top:350px; 
+position: absolute; 
+left:50%; 
+transform: translateX(-50%); 
+filter: drop-shadow(0 4px 15px rgba(227, 151, 0, 0.5)); 
+}

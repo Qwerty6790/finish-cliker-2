@@ -1,0 +1,91 @@
+.mining-card {
+  width: 340px;
+  height: 100px; /* Установлена фиксированная высота */
+  position: relative;
+  border: 1px solid #302e2e;
+  background-color: #1d1e20;
+  padding: 0; /* Убрали padding */
+  margin: 0.7vh auto; /* Центрирование карточки */
+  border-radius: 14px;
+  display: flex; /* Используем Flexbox для выравнивания */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  justify-content: space-between; /* Распределение между элементами */
+}
+
+.card-image {
+  height: 100%; /* Чтобы изображение не выходило за пределы карточки */
+  margin-left: 5px; /* Отступ слева */
+}
+
+.card-title {
+  color: aliceblue;
+  position: absolute;
+  font-size: 16px; /* Уменьшен размер шрифта */
+  margin-left: 90px;
+  font-weight: bold;
+  margin-bottom: 44px; /* Убрали отступы */
+}
+
+.info-box {
+  display: flex; /* Используем Flexbox */
+  align-items: center; /* Вертикальное выравнивание */
+  flex-grow: 1; /* Позволяет info-box занимать оставшееся пространство */
+  margin-left: 45px;
+  margin-top: 14px; /* Отступ между элементами */
+}
+
+.level-info {
+  width: 33px;
+  height: 18px;
+  background-color: #8b8b93;
+  border-radius: 30px;
+  color: aliceblue;
+  font-size: 12px; 
+  text-align: center;
+  padding-top: 3px;
+  margin-left: -58px;
+  margin-top:20px;/* Уменьшен размер шрифта */
+}
+
+.currency-icon {
+  height: 80px; /* Уменьшенная высота */
+  width: 80px; /* Уменьшенная ширина */
+  margin-left: -10px;
+  margin-top: -3px; /* Отступ вокруг иконки */
+}
+
+.profit-info {
+  color: rgb(235, 190, 76);
+  font-weight: bold;
+  font-size: 14px; 
+  margin-left: -19px;
+  margin-top: 22px; 
+
+}
+
+.coin-box {
+  background-color: chocolate;
+  color: aliceblue;
+  border-radius: 10px;
+  position: absolute;
+  left: 65%;
+  width: 100px; /* Ширина кнопки */
+  height: 43%; /* Высота соответствует карточке */
+  display: flex; /* Используем Flexbox */
+  align-items: center; /* Вертикальное выравнивание */
+  justify-content: center; /* Горизонтальное выравнивание */
+  margin-left: 10px;
+  margin-top: -15px; /* Отступ слева */
+}
+
+.coin-icon {
+  height: 30px; /* Уменьшенная высота */
+  width: 30px; /* Уменьшенная ширина */
+  margin-right: 2px; /* Отступ после иконки */
+}
+
+.price-info {
+  color: aliceblue;
+  font-size: 16px; /* Уменьшен размер шрифта */
+}
+

@@ -1,0 +1,77 @@
+
+
+
+
+.img-theree{
+  position: absolute;
+  top: -20%;
+  left: 55%;
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+z-index: 40;
+}
+
+.img-four{
+  margin-left: 56px;
+}
+
+.img-four-1{
+  margin-top: -83px;
+  margin-left: 280px;
+}
+
+
+.icons-store{
+  position: absolute;
+  font-size: 5px;
+  left: 3%;
+}
+
+.green-progress{
+  position: absolute;
+  border-radius: 30px;
+  scale: 75%;
+  width: 18px;
+  height: 5px;
+  right: 53%;
+  background-color: #f3a20c;
+  padding: 10px 13px 15px
+}
+
+.number{
+  color: #000;
+  font-weight: bold;
+  margin-top: 0.6vh;
+}
+
+.store{
+  position: absolute;
+  
+  color: aliceblue;
+  margin-top: 17px;
+  margin-right: 210px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bar{
+  position: absolute;
+width: 370px;
+border: 1px solid #e0a05b;
+background-color: #be7220;
+left: 50%;
+transform: translateX(-50%);
+bottom: 110px;
+padding-top: 4px;
+height: 55px;
+border-radius: 15px;
+}
+
+.icons-top{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  
+  
+body{  
+ background-color:#141414 ;   
+}  
+  
+.navigation-panel { 
+  display: flex;
+  align-items: center;
+  border: 2px solid #878787;
+  background-color: #464646;
+  border-radius: 20px;
+  justify-content: center;  
+  align-items:center;  
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  left: 49%;
+  transform: translateX(-50%);
+  width: 367px; 
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-family: "Montserrat", sans-serif; 
+  font-optical-sizing: auto; 
+  font-style: 700; 
+  position: absolute; 
+  font-size: 12px; 
+  bottom: 0; 
+  width: 357px; 
+  height:7%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 100;
+} 
+
+ 
+  
+.main-message {  
+    font-family: "Montserrat", sans-serif;  
+    font-optical-sizing: auto;  
+    font-style: normal;  
+    color: aliceblue;  
+    position: absolute;  
+    flex-direction: column;  
+    align-items: center;  
+     
+    top: 147px;  
+    width:80px;  
+    transform: translateX(-50%);  
+    display: flex;   
+    white-space: nowrap;   
+  } 
+   
+
+  .load-friends{
+    font-family: "Montserrat", sans-serif;  
+    font-optical-sizing: auto;  
+    font-style: normal;  
+    color: aliceblue;  
+  }
+
+  .title-frainds{ 
+    transform: translateX(-20%);  
+    left: 20px; 
+  } 
+  
+  .invite-friend-text{  
+    color: aliceblue;  
+    font-weight: 800;  
+    margin-top: -45px;  
+    margin-left: 30px;  
+  }  
+    
+  .main-message{  
+    position: absolute;  
+    left:55%; 
+    transform: translateX(-50%); 
+    margin-top: -80px; 
+    margin-left: -10px; 
+  }  
+ 
+  .main-message span {  
+   color:#ff6607; 
+  }  
+  
+  .central-top-logo{  
+    position: absolute;  
+    left:50%; 
+    transform: translateX(-50%); 
+    top: 25px;  
+  }  
+  
+  .yellow-box {  
+    height: 25px;  
+    width: 75px;  
+    background-color: #fbcc36;  
+    color: #000000; 
+    border-radius: 20px;  
+    margin-left: -110px;  
+    margin-top: -5px;  
+    text-align: center;  
+    font-size: 14px; 
+    font-weight: 700; 
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+} 
+ 
+  
+  .description-friends{  
+    margin-left: 13px;  
+    color: #57585a;  
+    width: 150%;  
+  }   
+  
+  .gift-icon{  
+    position: absolute;  
+    left:50%; 
+    transform: translateX(-50%); 
+    margin-top: -280px; 
+    margin-left:100px; 
+    filter: drop-shadow(0 4px 15px rgba(255, 77, 0, 0.5)); 
+    z-index: 5;  
+  }  
+  
+  .box-item{  
+    width: 180px;  
+    height: 100%;  
+    left: 40%;  
+   top: 31.3%;  
+  }  
+  
+  .button-one{  
+   width: 290px;  
+   border: none;  
+   height: 15px;  
+   padding: 20px;  
+   padding-top: -80px;  
+   
+   border-radius: 15px;  
+   color: aliceblue;  
+   margin-left: -700px;  
+margin-top: 80px;  
+   background-color: #c95711;  
+  }  
+  
+  .button-item{  
+      
+    margin-top: -8px;  
+    font-weight: 500;  
+    font-size: 14px;  
+  }  
+  
+   
+  
+  
+  .button-two{  
+   width: 48px;  
+   border: none;  
+   height: 39px;  
+   margin-top: 78px;  
+   margin-left: 8px;  
+   padding-top: 18px;  
+   border-radius: 12px;  
+   background-color: #c95711;  
+  }  
+  
+  .main-p{  
+    font-weight: bold;  
+    margin-left: 40px;  
+    margin-top: -40px;  
+  }  
+  
+  .main-p-p{  
+  
+    font-size: 20px;  
+    left: 18%;  
+    top: -19%;  
+  }  
+  
+  .svg-frainds{  
+    position: absolute;  
+    margin-top: -35px;  
+    margin-left: 65px;  
+  }  
+  
+  
+  
+  
+  .svg-frainds-two{  
+    position: absolute;  
+    margin-left: -10px;  
+    margin-top: -20px;  
+  }  
+  
+    
+  
+    
+  
+.list-message{  
+    font-family: "Montserrat", sans-serif;  
+    font-weight:600;  
+    color: rgb(255, 255, 255);  
+    font-size: 24px;  
+    position: absolute;  
+    flex-direction: column;  
+    align-items: center;  
+    display:flex;  
+    top: 190px;  
+    left: 90px;  
+    width:80px;  
+    height:auto;  
+    white-space: nowrap;  
+    margin: 0;   
+}  
+  
+.coin-logo{  
+  position: absolute;  
+  left: 40px;  
+  top: 33px; 
+  margin-left: -30px;  
+}  
+  
+.invite-component {  
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin-top:-130px;  
+  width: 380px;  
+  color: rgb(255, 255, 255);  
+  display: flex;  
+  align-items: center;  
+  border-radius: 20px;  
+  background-color: #1d1e20;  
+  padding-top: 1px;  
+  padding-bottom: 20px;  
+  overflow: hidden; /* Скрывает переполнение */ 
+  z-index: 10; 
+} 
+ 
+ 
+  
+.friends-section-retings{  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  gap: 50px;  
+  margin-top:350px; 
+}  
+  
+.title-friends{  
+  color: aliceblue;  
+  margin-top: 30px; 
+}  
+  
+.subtitle-friends{ 
+  margin-top: 30px; 
+  color:aliceblue; 
+ 
+}  
+ 
+.central-logo-frainds{ 
+  position: absolute; 
+  left:170%; 
+  top: -20%; 
+  transform: translateX(-62%); 
+  filter: drop-shadow(0 4px 15px rgba(255, 77, 0, 0.5)); 
+   
+  } 
+  
+.box-friends{  
+  background-color: rgb(37, 37, 37);  
+  border-radius: 15px;   
+  padding:6px 20px; 
+  margin-left: 5px; 
+} 
+ 
+.cards { 
+  flex-direction: column; 
+  position: absolute; 
+  gap: 5px; 
+  height: 350px; 
+  width: 100%; 
+  margin-top: 200px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start;  
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  overflow-y: auto; 
+} 
+ 
+ 
+.gift-icon{ 
+  margin-left: 120px; 
+}

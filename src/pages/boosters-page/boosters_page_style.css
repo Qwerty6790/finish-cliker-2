@@ -1,0 +1,115 @@
+body{
+    background-color: #141414;
+}
+
+.navigation-panel { 
+  display: flex;
+  align-items: center;
+  border: 2px solid #878787;
+  background-color: #464646;
+  border-radius: 20px;
+  justify-content: center;  
+  align-items:center;  
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  left: 49%;
+  transform: translateX(-50%);
+  width: 387px; 
+  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  font-family: "Montserrat", sans-serif; 
+  font-optical-sizing: auto; 
+  font-style: 700; 
+  position: absolute; 
+  font-size: 12px; 
+  bottom: 0; 
+  width: 357px; 
+  height:7%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 100;
+} 
+
+
+
+.boosters-mining-navbar{
+  background-color: #333232;
+  position: absolute;
+  width:270px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top:190px;
+  font-size: 22px;
+  padding:5px;
+  padding-left: 20px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.boosters-in-self-navbar{
+  background-color: #4d4b4b;
+  border-radius: 18px;
+  width:150px;
+  height: 27px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.cards {
+  flex-direction: column;
+  position: absolute;
+  gap: 40px;
+  height: 450px;
+  width: 100%;
+  margin-top: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+
+.text-of-cards-container{
+  width:250px;
+  color:#ffffff;
+  font-size:20px;
+  margin-bottom:-25px;
+  margin-left:-70px;
+}
+
+.main-text{
+  font-weight: 600;
+  color:#d3d0d0;
+  font-size: 30px;
+  flex-direction: column;
+  position: absolute;
+  gap: 40px;
+  height: 450px;
+  width: 100%;
+  margin-top: 450px;
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start;  */
+  /* padding: 10px; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* overflow-y: auto; */
+}
+
+ a{
+    color: #d3d0d0;
+    list-style: none;
+    text-decoration: none;
+      }

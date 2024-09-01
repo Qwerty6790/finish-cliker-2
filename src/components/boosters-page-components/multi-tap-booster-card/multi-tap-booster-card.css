@@ -1,0 +1,95 @@
+body{
+    background-color: #141414;
+    font-family: "Nunito", sans-serif;
+}
+
+.booster-card{
+  background-color: #1c1d22;
+  width:350px;
+  height: 150px;
+  border-radius: 20px;
+  padding-bottom:40px;
+}
+
+.container{
+  flex-direction: column;
+  margin-top:-28%;
+  margin-right:30%;
+  height:100px;
+  align-items: center;
+  display: flex;
+}
+
+
+.title-of-booster{
+  margin-left:230px;
+  margin-top:10px;
+  /* color: aliceblue;
+  width: 120%;
+  font-weight: bold;
+  margin-top: -0.9vh;
+  margin-left: -1.2vh; */
+}
+
+.info-in-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top:-18px;
+  margin-left:180px;
+  width:100%;
+}
+
+.level {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #a4a4a4;
+  color: #ffffff;
+  border-radius: 20px;
+  align-items: center;
+  /* height: 10px; */
+}
+
+.profit {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #ffc400;
+  color: #000000;
+  align-items: center;
+  /* height: 10px; */
+  border-radius: 20px;
+}
+
+
+.text-energy-reserve{
+  font-weight: 700;
+  color: #4f515a;
+}
+
+
+.title{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.button-of-booster{
+  font-weight: 600;
+  color:#ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  background-color: #4f515a;
+  border: none;
+  position: absolute;
+  border-radius: 10px;
+  width:220px;
+  height:35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 105px;
+  margin-top: -10px;
+}

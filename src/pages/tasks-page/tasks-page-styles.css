@@ -1,0 +1,36 @@
+.central-top-logo{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:10px;
+  filter: drop-shadow(0 4px 15px rgba(255, 77, 0, 0.5));
+}
+
+
+.task-title {
+    position: absolute; /* Keeps the element out of the normal document flow */
+    left: 50%; /* Position it 50% from the left of the containing block */
+    transform: translate(-50%); /* Adjust the position to center it */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white; /* Text color */
+    white-space: nowrap; 
+    top:80px;
+}
+
+.task-container{
+ flex-direction: column;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  left: 50%;
+  transform: translate(-50%);
+  top:150px;
+  overflow-y: auto;
+  gap:15px;
+}
+

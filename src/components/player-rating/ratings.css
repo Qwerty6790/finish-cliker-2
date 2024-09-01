@@ -1,0 +1,73 @@
+
+.rating-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    height: 30px;
+    color:aliceblue;
+   border: 1px solid #313131;
+    padding: 5px;
+    border-radius: 30px;
+    margin:-2; 
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 1px;
+    white-space: nowrap;
+    padding:30px;
+    overflow: hidden; /* Добавляем это свойство */ 
+}
+
+.users-balance{
+  margin-left:200px;
+
+}
+
+.users-rating{
+  border-radius: 30px;
+  background-color: #4b4a4a;
+  width: 40px;
+  height: 40px;
+}
+
+
+.components-users-ratings{
+  border-radius: 30px;
+  background-color: #b1aeae;
+  width:12px;
+  height: 12px;
+  margin: 10px 13px;
+}
+
+.components-down-users-ratings{
+  border-radius: 30px;
+  background-color: #b1aeae;
+  width:20px;
+  height: 8px;
+  margin: -6px 9px;
+}
+
+.users-name{
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+
+.users-index{
+  position: absolute;
+  margin-left: 50px;
+  margin-top:35px;
+  color: #4b4a4a;
+}
+
+
+.give-rating{
+  margin-top: 2px;
+  margin-left: 1.5px;
+  color: #fff200;
+  font-size: 13px;
+}
+
+.span-index-rating{
+  color: rgb(115, 116, 117);
+}

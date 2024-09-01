@@ -1,0 +1,75 @@
+body{
+    background-color: #141414;
+    font-family: "Nunito", sans-serif;
+}
+
+.text-of-of-daily-booster{
+  position: absolute;
+  color:#4f515a;
+  font-weight: 700;
+  display: flex;
+  margin-left:230px;
+  margin-top: 30px;
+}
+
+.booster-card{
+  background-color: #1c1d22;
+  width:350px;
+  height: 150px;
+  border-radius: 20px;
+  padding-bottom:40px;
+}
+
+.container{
+  flex-direction: column;
+  margin-top:-28%;
+  margin-right:30%;
+  height:100px;
+  align-items: center;
+  display: flex;
+}
+
+
+.title-of-booster{
+  color: aliceblue;
+  width: 120%;
+  font-weight: bold;
+  margin-top: -0.9vh;
+  margin-left: -1.2vh;
+}
+
+.progress-of-booster{
+  margin-left: -21px;
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding:5px;
+  background-color:#ffc400;
+  border-radius:20px;
+}
+
+
+.available{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+
+.button-of-booster{
+  font-weight: 600;
+  color:#ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  background-color: #d4510b;
+  border: none;
+  position: absolute;
+  border-radius: 10px;
+  width:220px;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 105px;
+  margin-top: -20px;
+}
